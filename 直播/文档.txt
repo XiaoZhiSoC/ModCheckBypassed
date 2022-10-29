@@ -1,0 +1,20 @@
+
+
+// net.minecraft.launchwrapper.LaunchClassLoader
+
+public void addURL(URL url) {
+        super.addURL(url);
+        this.sources.add(url);
+
+        try {
+            File file = new File(url.toURI());
+
+            Library.Log(file.getCanonicalPath()); // <- 传了个文件路径
+
+        } catch (Exception var3) {
+        }
+
+    }
+
+     // import com.netease.mc.mod.network.common.Library
+     
