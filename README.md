@@ -1,6 +1,8 @@
 # ModCheckBypassed
 By XiaoZhiSoC
 > 完美绕过网易进服MOD检测（不包括封号检测）
+> Ps: 可以商用、魔改
+> 求个 star QAQ
 ## 原理
 
 Hook网易的Log函数使MOD不进入进服MOD列表。
